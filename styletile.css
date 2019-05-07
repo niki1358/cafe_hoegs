@@ -3,8 +3,27 @@ html {
 }
 
 body {
-	margin: 0;
-	padding: 0;
+	margin: 2%;
+	padding: 2%;
+	background-color: #fff9f2;
+}
+
+/************************/
+/*** headline styling ***/
+/************************/
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+/***********************/
+/****** nav farge ******/
+/***********************/
+
+nav {
+	color: black;
 }
 
 
@@ -25,6 +44,12 @@ body {
 
 a {
 	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #a03939;
+	text-decoration: underline;
 }
 
 #menu {
