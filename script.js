@@ -4,7 +4,7 @@ window.addEventListener("load", sidenVises);
 function sidenVises() {
 	console.log("sidenVises");
 
-	document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+	document.querySelector("#menuKnap").addEventListener("click", toggleMenu);
 
 
 }
@@ -17,8 +17,8 @@ function toggleMenu() {
 	let erSkjult = document.querySelector("#menu").classList.contains("hidden");
 
 	if (erSkjult == true) {
-		document.querySelector("#menuknap").textContent = "☰";
+		document.querySelector("#menuKnap").textContent = "☰";
 	} else {
-		document.querySelector("#menuknap").textContent = "X";
+		document.querySelector("#menuKnap").textContent = "X";
 	}
 }
