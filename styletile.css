@@ -168,6 +168,33 @@ a:hover {
         background-repeat: no-repeat;
     }
 
+    .book_bord_button {
+        box-shadow: 0px 1px 0px 0px #1c1b18;
+        background: linear-gradient(to bottom, #F2C168 5%, #A78F51 100%);
+        border-radius: 16px;
+        border: 2px solid #333029;
+        display: inline-block;
+        cursor: pointer;
+        color: #261F1B;
+        font-family: 'Limelight', cursive;
+        font-size: 50px;
+        font-weight: bold;
+        padding: 10px 31px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #ffffff;
+        transition: all 0.5s ease;
+    }
+
+    .book_bord_button:hover {
+        background: linear-gradient(to bottom, #A78F51 5%, #F2C168 100%);
+        transform: scale(1.01);
+    }
+
+    .book_bord_button:active {
+        position: relative;
+        top: 1px;
+    }
+
     #kontakt {
         background-color: #F2C168;
         width: 100%;
