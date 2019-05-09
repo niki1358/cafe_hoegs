@@ -108,6 +108,7 @@ a:hover {
     #menu a {
         display: inline-block;
         /* This makes the menu horisontal */
+
     }
 
     #splash {
@@ -116,9 +117,16 @@ a:hover {
         height: 56.25vw;
         background-position: center;
         background-size: 100%;
-        ;
 
+    }
 
+    #menu_kort {
+        background-image: url(assets/menu_desktop.png);
+        width: 100%;
+        height: 3940px;
+        background-size: 100%;
+        background-position: absolute;
+        background-repeat: no-repeat;
     }
 
 
