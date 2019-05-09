@@ -242,6 +242,14 @@ a:hover {
 
 @media only screen and (min-width: 600px) {
 
+	nav {
+		text-align: left;
+	}
+
+	nav a {
+		margin: 0.2em 0 0 0;
+	}
+
 	#menuknap {
 		display: none;
 	}
@@ -289,9 +297,9 @@ a:hover {
 		flex-direction: column;
 		align-items: center;
 		width: 100%;
-		height: 30vw;
+		height: 25vw;
 		margin: 2px;
-		padding: 25px;
+		padding: 10vw;
 		position: relative;
 
 	}
@@ -311,7 +319,7 @@ a:hover {
 		text-decoration: none;
 		text-shadow: 0px 1px 0px #ffffff;
 		transition: all 0.5s ease;
-		top: 12vw;
+		top: 13vw;
 
 	}
 
@@ -352,6 +360,12 @@ a:hover {
 		font-size: 3em;
 		margin: 2px;
 		padding: 10px;
+	}
+
+	footer {
+		margin-top: 2em;
+		font-size: 1em;
+		font-weight: bold;
 	}
 
 }
