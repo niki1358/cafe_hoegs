@@ -61,16 +61,12 @@ p {
 
 footer {
     text-align: center;
-    padding: 5px 0;
+    padding: 12px 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 
-/***********************/
-/****** nav farge ******/
-/***********************/
 
-nav {
-    color: black;
-}
 
 /**********************/
 /******* splash *******/
@@ -101,15 +97,42 @@ nav {
     display: inline-block;
 }
 
+
+
+/*****************/
+/****** nav ******/
+/*****************/
+
+
+header {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.21);
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    color: white;
+}
+
 a {
     text-decoration: none;
     color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+    padding: 7px;
+    text-align: center;
 }
 
 a:hover {
-    color: #a03939;
     text-decoration: underline;
 }
+
+
+a:visited {
+    color: #F2C168;
+}
+
 
 #menu a {
     display: block;
@@ -159,13 +182,21 @@ a:hover {
         border: 5px solid #3d3d3d;
     }
 
-    #menu_kort {
-        background-image: url(assets/menu_desktop.png);
+    #menu_kort img {
         width: 100%;
-        height: 3940px;
         background-size: 100%;
         background-position: absolute;
         background-repeat: no-repeat;
+    }
+
+    #book_bord {
+        width: 100%;
+        height: 30vw;
+        margin: 2px;
+        padding: 25px;
+        position: relative;
+
+
     }
 
     .book_bord_button {
@@ -183,6 +214,12 @@ a:hover {
         text-decoration: none;
         text-shadow: 0px 1px 0px #ffffff;
         transition: all 0.5s ease;
+        position: absolute;
+        top: 14vw;
+        left: 33vw;
+
+
+
     }
 
     .book_bord_button:hover {
@@ -194,6 +231,7 @@ a:hover {
         position: relative;
         top: 1px;
     }
+
 
     #kontakt {
         background-color: #F2C168;
